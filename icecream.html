@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Place</title>
+</head>
+<body>
+    <center>
+        <h1>Order icecream deserts</h1>
+    <h3>Place Order</h3>
+    <form action="./index.html" method="post">
+        <label for="dress">Select Ice Cream</label>
+            <select id="dress" name="dress" required>
+                <option value="">--Select Ice Cream--</option>
+                <option value="Butterscotch">Butterscotch</option>
+                <option value="Vanilla">Vanilla</option>
+                <option value="Chocolate">Chocolate</option>
+            </select><br><br>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="age">Age</label>
+        <input type="text" id="age" name="age" required pattern="[0-9]{3}"><br><br>
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required><br>
+        <br><center><button><a href="./reply.html">Order now</a></button></center>
+        <br><button><a href="./index.html">Home</a></button>        
+    </form>
+    </center>
+</body>
+</html>
